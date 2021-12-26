@@ -1,0 +1,121 @@
+*{
+    margin: 0.5rem;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    max-height: 20vh;
+}
+
+.links{
+    margin-left: 35rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+li{
+    font-size: 0.9rem;
+}
+
+a{
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+ul{
+    float: right;
+    margin-right: 0px;
+    display: flex;
+    float: right;
+}
+
+
+a,li{ 
+    text-decoration: none;
+
+    /* flex: 2 1 10rem; */
+    /* justify-content: space-around; */
+    align-items: center;
+    list-style: none;
+    margin: 5px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner1{
+    display: block;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.banner h1{
+    position: absolute;
+    top:11rem;
+    left:14rem;
+    color: white;
+}
+
+
+
+.services1 a, .services2 a{
+    display: inline-block;
+}
+
+.serheader{
+    color: rgb(4, 4, 117);
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.services1, .services2{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    max-width: 75%;
+    max-height: 75%;
+    margin-left: 13%;
+}
+
+.sec-img{
+    max-height: 90vh;
+}
+
+
+.subcontainer1{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.container-data h1{
+    color: rgba(1, 1, 29, 0.829);
+    margin-left: 30%;
+    margin-bottom: 3%;
+    margin-top: 13%;
+}
+
+.container-data p{
+    width: 65%;
+    margin-left: 15%;
+}
+
+.blocks{
+    display: flex;
+    margin-left: 5%;
+    flex-direction: row;
+}
+.block1, .block2, .block3, .block4{
+    background-color: cornflowerblue;
+    flex-grow: 0;
+    padding: 1px;
+    border-radius: 5px;
+    /* flex-basis: 15%; */
+}
