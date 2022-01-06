@@ -1,3 +1,7 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+
 .header{
     display: flex;
     max-height: 15vh;
@@ -54,7 +58,7 @@
 }
 
 .links a{
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 16px !important;
 }
 
@@ -98,6 +102,8 @@ header li{
     top:9rem;
     left:14rem;
     color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 
@@ -121,6 +127,15 @@ header li{
     max-width: 75%;
     max-height: 75%;
     margin-left: 13%;
+}
+
+
+.services1 img, .services2 img{
+    text-align: center;
+}
+
+.services1 p, .services2 p{
+    width: 80%;
 }
 
 .sec-img{
