@@ -1,0 +1,195 @@
+header{
+    display: flex;
+}
+
+header ul{
+    display: flex;
+}
+header li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-c{
+    margin-left: 10%;
+}
+
+.links{
+    margin-left: 33rem;
+    position: relative;
+    bottom: 2.5rem;
+    font-size: 15px;
+}
+
+.links a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px !important;
+    font-weight: 300;
+}
+
+.links a:hover{
+    background-color: #1934ff;
+    color: white;
+}
+
+/* testing starts */
+
+.main-item{
+    position: relative;
+    display: inline-block;
+}
+
+.sub-items{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.sub-items a{
+    color: black;
+    padding: 6px 8px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px !important;
+}
+
+.sub-items a:hover{
+    background-color: #2464ee !important;
+}
+
+.main-item:hover .sub-items{
+    display: block;
+}
+
+/* testing ends  */
+
+
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.abt-img{
+    max-width: 80%;
+    margin-left: 10%;
+    -webkit-transform: scale(1.2);
+    transform: none;
+
+}
+
+section h1{
+    margin-top: 3%;
+}
+
+h1,h4,h2,p,a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.links a{
+    padding: 3px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+h4{
+    border-left: 5px solid #000c6b;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 23px;
+    color: #000c6b;
+}
+
+p{
+    font-weight: 300;
+    line-height: 25px;
+}
+
+footer{
+    background-color: #024982;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer p{
+    color: white;
+}
+
+footer li{
+    list-style: none;
+    display: list-item;
+    padding-bottom: 10px;
+}
+.footer-headers{
+    border-bottom: 2px solid white;
+    display: inline-block;
+    margin-left: 33px;
+    font-size: 16px;
+}
+footer a, footer p{
+    color: white;
+    font-size: 13px;
+
+}
+
+.footer-container{
+    display: flex;
+}
+
+.footer-container a:hover{
+    color: turquoise;
+}
+
+.col2, .col3{
+    margin-left:50px ;
+}
+
+.col4{
+    margin-left: 70px;
+}
+
+.l1 li{
+    display: flex;
+}
+
+.l1 p, .l1 a{
+    margin: 0px 10px;
+}
+
+.fa{
+    color: #ffffff;
+    -webkit-transform: scale(0.8);
+    transform: none;
+}
+
+.l1 img{
+    border-radius: 50%;
+    -webkit-transform: scale(0.8);
+    transform: none;
+}
+
+.last{
+    border-top: 50px;
+}
+
+#copyrightt{
+    text-align: center;
+}

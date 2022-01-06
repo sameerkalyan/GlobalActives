@@ -1,0 +1,115 @@
+header{
+    display: flex;
+}
+
+header ul{
+    display: flex;
+}
+header li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+a{
+    text-decoration: none;
+    padding: 8px;
+}
+
+.logo-c{
+    margin-left: 10%;
+}
+
+.links{
+    margin-left: 33rem;
+    position: relative;
+    bottom: 2.5rem;
+    font-size: 14px;
+}
+
+.links a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.links a:hover{
+    background-color: #1934ff;
+    color: white;
+}
+
+#itservices{
+    background-color: #1934ff;
+    color: white;
+}
+
+/* testing starts */
+
+.main-item{
+    position: relative;
+    display: inline-block;
+}
+
+.sub-items{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.sub-items a{
+    color: black;
+    padding: 6px 8px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px !important;
+}
+
+.sub-items a:hover{
+    background-color: #2464ee !important;
+}
+
+.main-item:hover .sub-items{
+    display: block;
+}
+
+/* testing ends  */
+
+
+/* section styling */
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.start-img{
+    width: 100%;
+}
+
+section h1{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.pheader{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #024982; 
+    font-size: 20px;
+}
+
+section p, section li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;  
+}
